@@ -1,0 +1,87 @@
+.sectionRegister {
+	height: 100vh;
+	background: #245a61;
+}
+
+.titleRegister {
+	padding: 10px;
+	margin-bottom: 73px;
+	color: #44FCAE;
+}
+
+.inputRegister {
+	width: 90%;
+}
+
+.btnCancel {
+	margin-left: 191px;
+	text-align: center;
+	background: #8EC044;
+	padding: 7px 12px 7px 12px;
+	border-radius: 5px;
+	transition: all .5s ease-out;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 700;
+	text-decoration: none;
+	color: #000 !important;
+	border: none;
+}
+
+.btnCreate {
+	text-align: center;
+	background: #8EC044;
+	padding: 7px 12px 7px 12px;
+	border-radius: 5px;
+	transition: all .5s ease-out;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 700;
+	border: none;
+}
+
+.btnCreate:hover, .btnCancel:hover {
+	color: #fff !important;
+	background: #78cdd1;
+}
+
+.formRgisterLeft {
+	padding: 16px;
+	text-align: justify;
+}
+
+.formRegisterPadding {
+	border: 1px solid rgba(252, 252, 252, 0.3);
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px
+		15px 12px;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+.col-form-label {
+	color: #44FCAE;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 700;
+	margin-right: 9px;
+}
+
+.error {
+	color: red;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+.form-control:focus {
+	background: #78cdd1;
+	color: #fff;
+}
+
+.checkEyes {
+	display: flex;
+}
+
+.icon {
+	WIDTH: 12%;
+}

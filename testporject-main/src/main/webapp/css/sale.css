@@ -1,0 +1,105 @@
+main {
+/* 	height: 100vh; */
+    height: 100vh;
+}
+
+.cardSale {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.borderSale {
+	background-color:#245a61 ;
+	border: 1px solid rgba(252, 252, 252, 0.3);
+	width: 36%;
+	height: 471px;
+	border-radius: 6px;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px
+		15px 12px;
+}
+
+.card-body-sale {
+	border-radius: 20%;
+	background-color:#245a61 ;	
+}
+
+.formSale {
+	background: #245a61;
+	border: 1px solid rgba(252, 252, 252, 0.3);
+	
+	padding: 34px;
+}
+
+.titleSale {
+	padding: 10px;
+	margin-bottom: 57px;
+	color: #245a61;
+}
+
+.sectionSale {
+	background-color: #d8f3dc;
+	/* 	height: 100vh; */
+}
+
+.card-body {
+	height: 469px;
+}
+
+/* .streetSale { */
+/* 	position: relative; */
+/* } */
+
+/* .streetSale::after { */
+/* 	content: ""; */
+/* 	position: absolute; */
+/* 	display: block; */
+/* 	border: 1px solid #fff; */
+/* 	width: 85%; */
+/* 	height: 183px; */
+/* 	top: -13px; */
+/* 	left: -9px; */
+/* } */
+
+/* .withdrawalSale { */
+/* 	position: absolute; */
+/* 	color: #000; */
+/* 	top: -32px; */
+/* 	left: 0; */
+/* 	right: 0; */
+/* 	z-index: 1; */
+/* 	font-family: 'Roboto', sans-serif; */
+/* 	font-size: 1.5rem; */
+/* 	font-weight: 700; */
+/* 	width: 12%; */
+/* 	background: #fff; */
+/* } */
+
+.btnSaveSale,.btnReset,.btnDeleteSale,.btnUpdateSale {
+	text-decoration: none;
+	color: #000 !important;
+	text-align: center;
+	background: #8EC044;
+	padding: 7px 12px 7px 12px;
+	border-radius: 5px;
+	transition: all .5s ease-out;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+.btnSaveSale:hover,.btnReset:hover,.btnDeleteSale:hover,.btnUpdateSale:hover {
+	
+	background: #78cdd1;
+	color: #fff!important;
+}
+
+.erreur {
+	color: red;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+

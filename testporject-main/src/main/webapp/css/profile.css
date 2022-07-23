@@ -1,0 +1,80 @@
+/* .backgroundProfil {
+    background: #d8f3dc;
+} */
+
+.sectionProfile {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: #d8f3dc;
+}
+
+.titleProfile {
+	padding: 10px;
+	margin-bottom: 57px;
+	color: #245a61;
+}
+
+.formProfile {
+	background: #245a61;
+	border: 1px solid rgba(252, 252, 252, 0.3);
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px
+		15px 12px;
+	border-radius: 5px;
+	padding: 34px;
+}
+
+.inputProfileCheck {
+	padding: 54px 0 0 0;
+}
+
+.profileCredits {
+	background: transparent !important;
+	border: none !important;
+	color: #fff;
+}
+
+.credits {
+	width: 53%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+.buttonProfile {
+	display: flex;
+	width: 74%;
+	justify-content: center;
+}
+
+.save {
+	padding: 43px 65px;
+}
+
+.btnSave, .btnDelete {
+	text-align: center;
+	background: #8EC044;
+	padding: 7px 12px 7px 12px;
+	border-radius: 5px;
+	transition: all .5s ease-out;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 700;
+	text-decoration: none;
+	color: #000 !important;
+	border: none;
+}
+
+.delete {
+	padding: 43px;
+}
+
+.btnSave:hover, .btnDelete:hover {
+	color: #fff !important;
+	background: #78cdd1;
+}
+
+.profileContainer {
+	
+	    margin-bottom: 50px;
+}

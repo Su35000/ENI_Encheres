@@ -1,0 +1,52 @@
+.pictureRetailSale {
+    width: 80%;
+}
+
+.productDescription {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+}
+
+.PriceRetail {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 33em;
+}
+
+.titleRetail {
+	padding: 10px;
+	margin-bottom: 57px;
+	color: #245a61;
+}
+
+.titleRetailName {
+	color: #44FCAE;
+}
+
+.textretailSale {
+	
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 500;
+	
+}
+
+.sectionRetailSale {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: #d8f3dc;
+	height: 100vh;
+}
+
+.formRetailSale {
+	background: #245a61;
+	border: 1px solid rgba(252, 252, 252, 0.3);
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px
+		15px 12px;
+	border-radius: 5px;
+	padding: 34px;
+}

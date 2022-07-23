@@ -1,0 +1,127 @@
+.cardLogin {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 90vh;
+}
+
+
+.borderConnexion {
+	background-color:#245a61 ;
+	border: 1px solid rgba(252, 252, 252, 0.3);
+	width: 36%;
+	height: 471px;
+	border-radius: 6px;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px
+		15px 12px;
+}
+
+.inputConnexion {
+	width: 28%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 700;
+	margin-right: 9px;
+}
+
+.buttonCompte {
+	text-align: center;
+}
+
+.btnCompte {
+	text-decoration: none;
+	color: #000 !important;
+	text-align: center;
+	background: #8EC044;
+	padding: 13px;
+	border-radius: 5px;
+	transition: all .5s ease-out;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 700;
+} 
+
+main {
+/* 	height: 100vh; */
+    height: 100vh;
+}
+
+.formConnexion {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 350px;
+}
+
+.checkBoxConnexion {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.card-body-connexion {
+	border-radius: 20%;
+	background-color:#245a61 ;	
+}
+
+.card-body {
+	height: 469px;
+}
+
+.backgroundConnexion {
+	background: #d8f3dc;
+}
+
+.titleConnexion {
+	padding: 10px;
+	margin-bottom: 73px;
+	color: rgb(2, 100, 58);
+}
+
+.identifierConnexion, .passwordConnexion, .form-check-label {
+	color: #44FCAE;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
+.buttonConnexion {
+	padding: 13px;
+	background: #8EC044;
+	transition: all .5s ease-out;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+.buttonConnexion:hover, .btnCompte:hover {
+	background: #78cdd1;
+	color: #fff!important;
+}
+
+.linkRememberMe {
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all .5s ease-out;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.linkRememberMe:hover {
+	color: #78cdd1;
+}
+
+.linkRememberMe:after {
+	content: "";
+	display: block;
+	border: 1px solid #fff;
+}
+
+.erreur {
+	color: red;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 700;
+}

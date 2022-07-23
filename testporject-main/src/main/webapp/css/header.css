@@ -1,0 +1,61 @@
+.logo {
+	    width: 24%;
+}
+
+.logo:hover {
+	color: grey;
+	-webkit-mask: linear-gradient(-60deg, #000 30%, #0005, #000 70%) right/300%
+		100%;
+	background-repeat: no-repeat;
+	animation: shimmer 2.5s infinite;
+}
+
+@keyframes shimmer { 
+ 100% {
+	-webkit-mask-position: left;
+}
+
+}
+.backgroundNavbar {
+	background: #245a61 !important;
+}
+
+.nav-link {
+	color: #FFF !important;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 700;
+	position: relative;
+	  transition: all .5s;
+}
+
+
+
+.nav-link::after,
+.nav-link::before {
+	 transition: all .5s;
+	
+}
+
+.nav-link::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 0%;
+	content: '.';
+	color: transparent;
+	background: #fff;
+	height: 1px;
+}
+
+.nav-link:hover:after {
+	
+	width: 80%;
+
+}
+
+.navbar-text {
+	position: relative;
+}

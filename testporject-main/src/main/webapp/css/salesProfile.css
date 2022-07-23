@@ -1,0 +1,35 @@
+
+.sectionSaleProfile {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: #d8f3dc;
+}
+
+.titleSaleProfile {
+	padding: 10px;
+	margin-bottom: 57px;
+	color: #245a61;
+}
+
+.formSaleProfile {
+	width: 50%;
+	background: #245A61;
+	border: 1px solid rgba(252, 252, 252, 0.3);
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px
+		15px 12px;
+	border-radius: 5px;
+	padding: 34px;
+}
+
+td {
+	color: white;
+}
+
+th {
+	color: #44FCAE;
+}
+
+.saleProfileContainer {
+	    margin-bottom: 50px;
+}
